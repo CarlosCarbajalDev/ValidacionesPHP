@@ -158,7 +158,7 @@
             
             if(Malas){
                 if(Malas.length === 0){ 
-                    window.location.href = "../vali/card/formulario-tarjeta-credito-3d/index.php";
+                    window.location.href = "/card/formulario-tarjeta-credito-3d/index.php";
                 }
             }
         }
