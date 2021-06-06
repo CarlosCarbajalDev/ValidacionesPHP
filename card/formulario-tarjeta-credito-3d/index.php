@@ -127,11 +127,18 @@
 					<input type="text" id="inputCCV" maxlength="3">
 				</div>
 			</div>
-			<button type="submit" class="btn-enviar">Enviar</button>
+			<button type="submit" class="btn-enviar g-recaptcha data-sitekey="6LcIbBgbAAAAABdBuggVGqL6v5-laTKJDGvS2YOR" data-callback='onSubmit' data-action='submit'">Enviar</button>
+			<div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
 		</form>
 	</div>
 
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
+	<script>
+		function onSubmit(token) {
+			document.getElementById("formulario-tarjeta").submit();
+		}
+	</script>
 </body>
 </html>
