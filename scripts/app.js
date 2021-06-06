@@ -158,7 +158,7 @@
             
             if(Malas){
                 if(Malas.length === 0){ 
-                    window.location.href = "/test.index.html";
+                    window.location.href = "card/formulario-tarjeta-credito-3d/index.php";
                 }
             }
         }
@@ -169,7 +169,7 @@
             var dateString = fecha.value;
             var regex = /(((19|20)\d\d)\-(0[1-9]|1[0-2])\-((0|1)[0-9]|2[0-9]|3[0-1]))$/
             //Check whether valid dd/MM/yyyy Date Format.
-            if (regex.test(dateString)) {ñ
+            if (regex.test(dateString)) {
                 var parts = dateString.split("-");
                 var dtDOB = new Date(parts[0] + "/" + parts[1] + "/" + parts[2]);
                 var dtCurrent = new Date();
