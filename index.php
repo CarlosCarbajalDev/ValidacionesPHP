@@ -446,6 +446,8 @@
                  <span class="text-sm text-red-600 hidden" id="error">Password is required</span>
               </div> -->
               
+              <div class="g-recaptcha" data-sitekey="6LcIbBgbAAAAABdBuggVGqL6v5-laTKJDGvS2YOR"></div>
+
               <button class="g-recaptcha" 
         data-sitekey="6LcIbBgbAAAAABdBuggVGqL6v5-laTKJDGvS2YOR" 
         data-callback='onSubmit' 
