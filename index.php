@@ -446,7 +446,7 @@
                  <label for="password" class="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">Enter password</label>
                  <span class="text-sm text-red-600 hidden" id="error">Password is required</span>
               </div> -->
-              <div class="g-recaptcha" data-sitekey="6LcIbBgbAAAAABdBuggVGqL6v5-laTKJDGvS2YOR"></div>
+              <button class="g-recaptcha" data-sitekey="6LcIbBgbAAAAABdBuggVGqL6v5-laTKJDGvS2YOR" data-callback='onSubmit' data-action='submit'>Submit</button>
               <button
                  id="button"
                  type="button"
