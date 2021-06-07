@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="styles/custom.css">
     <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -446,7 +447,7 @@
                  <label for="password" class="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">Enter password</label>
                  <span class="text-sm text-red-600 hidden" id="error">Password is required</span>
               </div> -->
-              <button class="g-recaptcha" data-sitekey="6LcIbBgbAAAAABdBuggVGqL6v5-laTKJDGvS2YOR" data-callback='onSubmit' data-action='submit'>Submit</button>
+              <div class="g-recaptcha" data-sitekey="6LdbtRgbAAAAAOYzV5cB-O8FzVN_l2F077VvxEuZ"></div>
               <button
                  id="button"
                  type="button"
