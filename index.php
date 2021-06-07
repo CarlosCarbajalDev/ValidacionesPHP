@@ -473,7 +473,7 @@
     <!-- Termina -->
     <script>
       function onSubmit(token) {
-      document.getElementById("demo-form").submit();
+         document.getElementById("form").submit();
       }
    </script>
 </body>
