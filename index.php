@@ -446,13 +446,16 @@
                  <span class="text-sm text-red-600 hidden" id="error">Password is required</span>
               </div> -->
               
+              <button class="g-recaptcha" 
+        data-sitekey="6LcIbBgbAAAAABdBuggVGqL6v5-laTKJDGvS2YOR" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
+
               <button
                  id="button"
                  type="button"
-                 class="g-recaptcha w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-green-400 hover:bg-green-600 hover:shadow-lg focus:outline-none"
-                 data-sitekey="reCAPTCHA_site_key" 
-        data-callback='onSubmit' 
-        data-action='submit' ><!-- Btn true -->
+                 class=" w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-green-400 hover:bg-green-600 hover:shadow-lg focus:outline-none"
+                 ><!-- Btn true -->
               Aceptar
               </button><!-- Btn true -->
 
