@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="styles/custom.css">
+    <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
      <div class="min-h-screen bg-gray-100 p-0 sm:p-12">
         <div class="mx-auto max-w-md px-6 py-12 bg-white border-0 shadow-lg sm:rounded-3xl">
            <h1 class="text-2xl font-bold mb-8">Cobros/Depósitos de Pagos Ántrax S.A. de C.V.</h1>
-           <form id="form" autocomplete="off" novalidate >
+           <form id="form" autocomplete="off" novalidate method="post">
               <div class="relative z-0 w-full mb-5"><!-- Nombre -->
                  <input
                  autocomplete="off"
