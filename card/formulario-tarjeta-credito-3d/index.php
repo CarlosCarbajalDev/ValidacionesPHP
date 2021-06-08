@@ -53,7 +53,7 @@
 					</div>
 				</div>
 				<p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates illo.</p>
-				<a href="#" class="link-banco">www.tubanco.com</a>
+				<a href="https://github.com/CarlosCarbajalDev" class="link-banco">github.com/CarlosCarbajalDev</a>
 			</div>
 		</section>
 
@@ -65,7 +65,7 @@
 		</div>
 
 		<!-- Formulario -->
-		<form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+		<form action="../../../vali/secondCaptcha.php" id="formulario-tarjeta" class="formulario-tarjeta">
 			<div class="grupo">
 				<label for="inputNumero">Número Tarjeta</label>
 				<input type="text" id="inputNumero" maxlength="19" autocomplete="off">
@@ -95,12 +95,12 @@
 					<i class="fas fa-angle-down items-center"></i>
 				</div>
 				<div class="grupo ccv mr-5">
-					<label for="inputCCV">Cantidad</label>
-					<input type="text" id="" maxlength="7">
+					<label for="cantidad1">Cantidad</label>
+					<input type="text" id="Cantidad" maxlength="7">
 				</div>
 				<div class="grupo ccv">
-					<label for="inputCCV">Val Cantidad</label>
-					<input type="text" id="" maxlength="7">
+					<label for="cantidad2">Val Cantidad</label>
+					<input type="text" id="valCantidad" maxlength="7">
 				</div>
 			</div>
 			<div class="flexbox">
@@ -127,8 +127,14 @@
 					<input type="text" id="inputCCV" maxlength="3">
 				</div>
 			</div>
+			<button type="submit" class="btn-enviar">Enviarrrrr</button>
+
+			<!-- 
+
 			<button type="submit" class="btn-enviar g-recaptcha data-sitekey="6LcIbBgbAAAAABdBuggVGqL6v5-laTKJDGvS2YOR" data-callback='onSubmit' data-action='submit'">Enviar</button>
 			<div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
+
+			 -->
 		</form>
 	</div>
 

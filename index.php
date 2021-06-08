@@ -1,4 +1,7 @@
+
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,18 +10,17 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="styles/custom.css">
-    <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>HOLAAAA</h1>
+
 
     <!-- Empieza -->
      <div class="min-h-screen bg-gray-100 p-0 sm:p-12">
         <div class="mx-auto max-w-md px-6 py-12 bg-white border-0 shadow-lg sm:rounded-3xl">
            <h1 class="text-2xl font-bold mb-8">Cobros/Depósitos de Pagos Ántrax S.A. de C.V.</h1>
-           <form id="form" autocomplete="off" novalidate method="post">
+           <form id="form" autocomplete="off" novalidate >
+           <!-- action="card/formulario-tarjeta-credito-3d/index.php -->
               <div class="relative z-0 w-full mb-5"><!-- Nombre -->
                  <input
                  autocomplete="off"
@@ -437,32 +439,25 @@
 
 
 
-              <!-- <div class="relative z-0 w-full mb-5">
-                 <input
-                    type="password"
-                    name="password"
-                    placeholder=" "
-                    class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-black border-gray-200"
-                    />
-                 <label for="password" class="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">Enter password</label>
-                 <span class="text-sm text-red-600 hidden" id="error">Password is required</span>
-              </div> -->
-              <div class="g-recaptcha" data-sitekey="6LdbtRgbAAAAAOYzV5cB-O8FzVN_l2F077VvxEuZ"></div>
-              <button
+
+
+
+             <button
                  id="button"
                  type="button"
-                 class=" w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-green-400 hover:bg-green-600 hover:shadow-lg focus:outline-none"
+                 class="w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-green-400 hover:bg-green-600 hover:shadow-lg focus:outline-none"
                  ><!-- Btn true -->
               Aceptar
-              </button><!-- Btn true -->
+              </button><!-- Btn true --><!-- Btn true -->
 
-              <button
-              id="button"
-              type="button"
-              class="w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-pink-500 hover:bg-pink-600 hover:shadow-lg focus:outline-none"
-                ><!-- Btn false -->
-           Cancelar
-           </button><!-- Btn false -->
+              <input>
+
+
+              <button id="button" type="button" class="w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-pink-500 hover:bg-pink-600 hover:shadow-lg focus:outline-none"><!-- Btn false -->
+                  Cancelar
+              </button><!-- Btn false -->
+
+              <!-- <a type="button" class="w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-pink-500 hover:bg-pink-600 hover:shadow-lg focus:outline-none" class="btn" href="javascript:window.open('http://localhost/vali/index.php', '_self').window.close();">Cerrar ventana</a> -->
 
 
            </form>

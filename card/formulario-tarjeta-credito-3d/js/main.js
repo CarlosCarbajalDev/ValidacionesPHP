@@ -8,6 +8,8 @@ const tarjeta = document.querySelector('#tarjeta'),
 	  mesExpiracion = document.querySelector('#tarjeta .mes'),
 	  yearExpiracion = document.querySelector('#tarjeta .year');
 	  ccv = document.querySelector('#tarjeta .ccv');
+const cantidad1 = document.querySelector('#Cantidad');
+const cantidad2 = document.querySelector('#valCantidad');
 
 // * Volteamos la tarjeta para mostrar el frente.
 const mostrarFrente = () => {
@@ -123,3 +125,42 @@ formulario.inputCCV.addEventListener('keyup', () => {
 
 	ccv.textContent = formulario.inputCCV.value;
 });
+
+
+cantidad1.addEventListener('keyup', () => {
+	if(!tarjeta.classList.contains('active')){
+		tarjeta.classList.toggle('active');
+	}
+
+
+	cantidad1.value = cantidad1.value
+	// Eliminar los espacios
+	.replace(/\s/g, '')
+	// Eliminar las letras
+	.replace(/\D/g, '');
+
+	cantidad1.textContent = cantidad1.value;
+});
+
+cantidad2.addEventListener('keyup', () => {
+	if(!tarjeta.classList.contains('active')){
+		tarjeta.classList.toggle('active');
+	}
+
+
+	cantidad2.value = cantidad2.value
+	// Eliminar los espacios
+	.replace(/\s/g, '')
+	// Eliminar las letras
+	.replace(/\D/g, '');
+
+	cantidad2.textContent = cantidad2.value;
+});
+
+
+
+setTimeout(() => {
+	console.log("hola mi amor");
+	console.log(cantidad1.value);
+	console.log(cantidad2.value);
+}, 5000);
