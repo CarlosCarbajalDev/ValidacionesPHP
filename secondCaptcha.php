@@ -19,8 +19,8 @@
                 <h1 class="text-2xl font-bold mb-8">Cobros/Depósitos de Pagos Ántrax S.A. de C.V.</h1>
                 <form  id="form">
                     <h2 id="text">Ingresa el contenido del captcha</h2>
-                    <h2 id="msj" class="hidden">Ingresa el captcha correctamente, el captcha es case Sensitive</h2>
                     <input id="input2" class="border-black border-2" type="text" name="" id="">
+                    <h2 id="msj" class="hidden text-center text-red-500">Ingresa el captcha correctamente, el captcha es case Sensitive</h2>
                     <div id="div">
                         <div>
                             
@@ -45,7 +45,9 @@
             if (returnResponse(arr,valor,numRandom)) {
                 window.location.href = "complete.html";
             } else {
-                msj.classList.toggle("hidden");
+                setTimeout(() => {
+                    msj.classList.toggle("hidden");
+                }, 1500);
             }
         })
 
