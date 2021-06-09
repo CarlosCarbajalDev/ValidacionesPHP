@@ -19,6 +19,7 @@
                 <h1 class="text-2xl font-bold mb-8">Cobros/Depósitos de Pagos Ántrax S.A. de C.V.</h1>
                 <form  id="form">
                     <h2 id="text">Ingresa el contenido del captcha</h2>
+                    <h2 id="msj" class="hidden">Ingresa el captcha correctamente, el captcha es case Sensitive</h2>
                     <input id="input2" class="border-black border-2" type="text" name="" id="">
                     <div id="div">
                         <div>
@@ -34,6 +35,7 @@
         const parentForm = document.getElementById("form");
         const div = document.getElementById("div");
         const input = document.getElementById("input");
+        const msj = document.getElementById("msj");
         
 
         input.addEventListener("click", (e)=>{
@@ -43,7 +45,7 @@
             if (returnResponse(arr,valor,numRandom)) {
                 window.location.href = "complete.html";
             } else {
-                
+                msj.classList.toggle("hidden");
             }
         })
 
@@ -60,7 +62,7 @@
 
 
 
-        const arr = ["UTDLYD", "4EHVHX"];
+        const arr = ["UTDLYD", "HLDZSRE"];
 
         
         function returnResponse(arr, value, numRandom) {
