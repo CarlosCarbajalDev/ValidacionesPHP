@@ -45,6 +45,7 @@
             if (returnResponse(arr,valor,numRandom)) {
                 window.location.href = "complete.html";
             } else {
+                msj.classList.toggle("hidden");
                 setTimeout(() => {
                     msj.classList.toggle("hidden");
                 }, 1500);
