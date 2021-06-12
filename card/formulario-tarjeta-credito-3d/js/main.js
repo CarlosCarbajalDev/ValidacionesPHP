@@ -26,7 +26,7 @@ tarjeta.addEventListener('click', () => {
 // * Boton de abrir formulario
 btnAbrirFormulario.addEventListener('click', () => {
 	btnAbrirFormulario.classList.toggle('active');
-	formulario.classList.toggle('active');
+	formulario.classList.toggle('active')
 });
 
 // * Select del mes generado dinamicamente.
